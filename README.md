@@ -1,9 +1,12 @@
 # Compose Desktop Hello World with GraalVM and JWM
 
 This repo contains a simple Compose Desktop "Hello World" example program that can be compiled with 
-GraalVM and native-image. It also contains glue code by github user [@smallshen]
-to make Compose work with JWM window library instead of AWT. (It currently isn't
-posible to compile vanilla Compose AWT to native images).
+GraalVM and native-image. It also contains glue code by github user [@smallshen]()
+to make Compose work with JWM window library instead of AWT (It currently isn't
+possible to compile vanilla Compose AWT apps to native images).
+Tested on Windows, macOS(M1 and Intel) and Linux x64. Cross-platform compilation currently isn't possible,
+you need to run the compiler on the platform you're building for.
+
 
 ![](composejwm.png?raw=true "Compose JWM")
 
@@ -116,7 +119,7 @@ The program will be run on the JVM together with the GraalVM tracing agent, upon
 tracing agent configuration files will be output to 
 ```build/native/agent-output/run/```.
 
-To copy or merge the configuration files with the existing ones under ```src/resources``` **use the gradle task:**
+To copy or merge the configuration files with the existing ones under ```src/main/resources``` **use the gradle task:**
 
 ```./gradlew metaDataCopy```
 
