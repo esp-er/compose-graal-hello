@@ -1,0 +1,16 @@
+[
+{
+  "name":"android.os.Build$VERSION"
+},
+{
+  "name":"kotlin.internal.jdk8.JDK8PlatformImplementations",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"kotlin.reflect.jvm.internal.ReflectionFactoryImpl"
+},
+{
+  "name":"sun.java2d.marlin.DMarlinRenderingEngine",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]
