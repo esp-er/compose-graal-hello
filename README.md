@@ -33,7 +33,7 @@ for more info if needed.
 
 Install Xcode command line tools:
 
-```code-select --install```
+```xcode-select --install```
 
 ### Windows build tools
 Install Visual Studio and Microsoft Visual C++ (MSVC).
